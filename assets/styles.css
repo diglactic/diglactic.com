@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+::selection {
+    color: #fff;
+    background-color: #5627c2;
+}
+
+html {
+    font: 16px ui-sans-serif, system-ui, sans-serif;
+    cursor: default;
+    min-height: 100%;
+    display: flex;
+}
+
+body {
+    margin: auto;
+    background: #f5f8ff;
+    text-align: center;
+    padding: 4rem 1rem;
+    max-width: 23rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+a {
+    color: #5627c2;
+}
+
+p {
+    margin: 2rem 0;
+    line-height: 1.5;
+}
+
+#logo {
+    width: 100%;
+    max-width: 14rem;
+}
